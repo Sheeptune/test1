@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
 .nav-link{
   color: rgb(68, 66, 66);
 }
@@ -15,18 +17,9 @@
   width: 32px;
 }
 
-p{
+p, a, h1 {
  font-family: 'Open Sans', sans-serif;
 }
-
-a{
-  font-family: 'Open Sans', sans-serif;
- }
-
- h1{
-  font-family: 'Open Sans', sans-serif;
- }
-
 
 /* Side nav */
 
@@ -174,7 +167,7 @@ li.account{
 /* Page Layout */
 
 .box {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -216,7 +209,6 @@ h3{
     font-size: 1.1em;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
 
 /* # PAGE STRUCTURE */
@@ -232,7 +224,7 @@ h3{
 }
 
 .site-content {
-  background: #eee;
+  background: #aaa;
   display: flex;
   flex-direction: column;
   width: calc(100% - 211px) !important;
@@ -485,8 +477,26 @@ figcaption p {
 
 /* Notification bell */
 
+.bubble {
+  position: relative;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
 
+/* Cards */
 
+/* Bootstrap like stuff
+ * we should create a custom bootstrap but I lake time fore it
+ */
+
+.h-49 {
+  height: 49% !important;
+}
+
+.border-bottom-2 {
+  border-bottom: solid 2px #666 !important;
+}
 /* Responsive Nav */
 
 @media (max-width:1050px) {
