@@ -55,7 +55,7 @@ p{
   width: 100%;
 }
 
-.nav-link:hover{
+.nav-link:hover, .nav-link + .active {
   border-left: 2px solid;
   border-left-color: #d4102a;
   color: #d4102a;
