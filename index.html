@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/fontawesome.css" type="text/css">
-    <script src="script.js" defer></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
     <title>Document</title>
 </head>
-
-<!-- Side Nav -->
-
 <body class="site">
     <nav class="nav flex-column">
         <a class="nav-link logo" href="#"><img src="https://via.placeholder.com/170x40" height="40px" alt="logo agence goweb"></a>
@@ -25,20 +25,14 @@
         <a class="nav-link" href="#"><i class="fas fa-receipt"></i> Facturation</a>
         <a class="nav-link" href="#"><i class="fas fa-question"></i> Aide</a>
         <a class="nav-link signout" href="#"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
-        
     </nav>
-    
-    
-    <!-- Header : Search, notifications and account -->
-    
     <main class="site-content">
         <header class="content-header">
             <ul class="nav justify-content-end">
                 <li><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li>
-                <li><a class="nav-link drop-down closed" id="bell" href="#"><span class="bubble">2</span><i class="far fa-bell"></i></a></li>
+                <li><a class="nav-link drop-down closed" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="" data-content="Au clic sur la cloche, je m’ouvre. Au clic à l’extérieur de cette zone (ou sur le HTML), je me ferme" id="bell" href="#"><span class="bubble">2</span><i class="far fa-bell"></i></a></li>
                 <li><a class="nav-link" href="#"><i class="far fa-envelope"></i></a></li>
-                <li class="account"><a class="nav-link"><img src="http://www.aretestrength.com/wp-content/uploads/2016/09/opulent-profile-square-07.jpg" alt="account"><div class="caret">&#9660;</div></a></li>
-                
+                <li class="account"><a class="nav-link"><img src="http://www.aretestrength.com/wp-content/uploads/2016/09/opulent-profile-square-07.jpg" alt="account"><div class="caret">&#9660;</div></a></li>      
             </ul>
         </header>   
         
