@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap_custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/fontawesome.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<!-- Side Nav -->
+
+<body class="site">
+        <nav class="nav flex-column">
+                <a class="nav-link logo" href="#"><img src="https://via.placeholder.com/170x40" height="40px" alt="logo agence goweb"></a>
+                <a class="nav-link" href="#"><i class="fas fa-th-large"></i> Dashboard</a>
+                <a class="nav-link" href="#"><i class="far fa-list-alt"></i> Mes tâches</a>
+                <a class="nav-link" href="#"><i class="far fa-folder-open"></i> Mes projets</a>
+                <a class="nav-link" href="#"><i class="fas fa-wallet"></i> Mes clients</a>
+                <a class="nav-link" href="#"><i class="fas fa-chart-line"></i> Résultats</a>
+                <a class="nav-link" href="#"><i class="fas fa-receipt"></i> Facturation</a>
+                <a class="nav-link" href="#"><i class="fas fa-question"></i> Aide</a>
+                <a class="nav-link signout" href="#"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+            
+              </nav>
+
+             
+<!-- Header : Search, notifications and account -->
+
+<main class="site-content">
+    <header class="content-header">
+            <ul class="nav justify-content-end">
+                    <li><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a class="nav-link drop-down closed" id="bell" href="#"><span class="bubble">2</span><i class="far fa-bell"></i></a></li>
+                    <li><a class="nav-link" href="#"><i class="far fa-envelope"></i></a></li>
+                    <li class="account"><a class="nav-link"><img src="http://www.aretestrength.com/wp-content/uploads/2016/09/opulent-profile-square-07.jpg" alt="account"><div class="caret">&#9660;</div></a></li>
+
+            </ul>
+    </header>   
+
+<section class="container">
+
+    <section class="maincontent">       
+    <div class=col-lg-12>
+        <div class=row>
+            <div class="col-lg-4 col-ms-3 box">
+                <h3 class="font-weight-bold">Du texte</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam iusto sequi reiciendis sapiente amet voluptatum ducimus fuga eum dolorum, voluptate itaque modi quo praesentium molestiae natus corporis aliquam dolor?</p>
+            </div>
+
+            <!-- Header : Carousel -->
+            
+
+            <div class="col-lg-7 col-ms-4">
+                <ul class="slides">
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <figure>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
+                            <figcaption class="figure-caption"><p class="font-weight-bold">Une chute d'eau</p></figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="http://www.timisoaranight.gruzphoto.eu/IMG_8554.jpg">
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
+                        </div>
+                    </li>
+                    <div class="carousel-dots">
+                        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class=row>
+            <div class="col-lg-3 col-ms-3 box">
+                <h3 class="font-weight-bold">Un graphique cool</h3>
+
+                    <div class="donut-chart-block block"> 
+                        <div class="donut-chart">
+                            <div id="part1" class="portion-block"><div class="circle"></div></div>
+                            <div id="part2" class="portion-block"><div class="circle"></div></div>
+                            <p class="center">50%</p>        
+                        </div>
+                    </div>
+
+                <p>Ce graphique peut être fait en pur CSS.</p>
+            </div>
+            <div class="col-lg-3 col-ms-3 middle ">
+                <div class="row middle">
+                    <div class="col box">
+                        <h3 class="font-weight-bold">Ventes du mois</h3>
+                        <p>20 54 1</p><img src="" alt="">
+                    </div>
+                </div>    
+                <div class="row middle second">
+                    <div class="col box">
+                        <h3 class="font-weight-bold">Ventes de l'année</h3>
+                        <p>20 54 1 25</p><img src="" alt="">
+                    </div>
+                </div>    
+            </div>
+            <div class="col-lg-3 col-ms-3 box">
+                <h3 class="font-weight-bold">Du texte</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam iusto sequi reiciendis sapiente amet voluptatum ducimus fuga eum dolorum, voluptate itaque modi quo praesentium molestiae natus corporis aliquam dolor?</p>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+
+
+
+</main>
+
+</body>
+</html>
